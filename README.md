@@ -23,3 +23,9 @@ Picking up a tile that looks like it has a glitchy texture in an area will often
 
 This Lua script is originally made for the Bizhawk emulator, which can emulate The Minish Cap, and has a Lua scripting integration which can be helpful for looking into the game's memory during gameplay and modifying it live, among other things.
 This script is meant as a learning tool to better understand how to use the firerod, and how different tiles relate to each other in id order, this is made simpler by displaying what the copied tile id looks like graphically when using the Firerod (before having to paste it onto the ground) and by having other useful information available on screen, like the copied id, or the collision value the copied tile has (which can sometimes be used to test other properties, like whether a tile is a ladder, a rock wall, a loading zone, etc).
+
+## HOW TO USE
+
+Like most Lua scripts for Bizhawk :
+Open Bizhawk 2.9.1 and higher versions, load your Minish Cap ROM (or Firerod ROM hack of the game) -> Go to Tools -> Lua Console -> Open Script -> `firerod_data.lua`
+And make sure your game is unpaused, when playing, if you copy a tile with the Firerod, you will see it appear on the bottom right corner of the screen with information about collision and id.
