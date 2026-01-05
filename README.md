@@ -27,5 +27,5 @@ This script is meant as a learning tool to better understand how to use the fire
 ## HOW TO USE
 
 Like most Lua scripts for Bizhawk :
-Open Bizhawk 2.9.1 and higher versions, load your Minish Cap ROM (or Firerod ROM hack of the game) -> Go to Tools -> Lua Console -> Open Script -> `firerod_data.lua`
+Open Bizhawk 2.9.1 and higher versions, load your Minish Cap ROM (or Firerod ROM hack of the game) -> On the Bizhawk menu/options go to Tools -> Lua Console -> Open Script -> `firerod_data.lua`
 And make sure your game is unpaused, when playing, if you copy a tile with the Firerod, you will see it appear on the bottom right corner of the screen with information about collision and id.
